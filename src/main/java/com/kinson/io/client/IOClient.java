@@ -54,7 +54,7 @@ public class IOClient {
 
             //控制台输入发送给服务端数据流
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-            while(true) {
+            while (true) {
                 //发送给服务端数据
                 String content = in.readLine();
                 System.out.println("Client socket msg: " + content);
